@@ -1,0 +1,10 @@
+step-0: download llama2 model and copy it in models folder (this link is recommended for local use https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
+Step-1: in your cmd create a conda environment ,exemple command:
+    conda create -p llmenv python==3.9           
+step-2: activate the conda environment:
+    conda activate <Path to Folder>
+step-3: cd to the folder where you cloned the project
+step-4: run in cmd
+     pip install -r requirements.txt
+step-5: run in cmd
+     streamlit run app.py
